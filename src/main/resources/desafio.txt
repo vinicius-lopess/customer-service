@@ -1,0 +1,44 @@
+2. Conceitos
+
+2.1. Faça uma breve descrição sobre Arquitetura orientada a Serviços (até 8 linhas).
+
+- É um padrão de arquitetura que preza pela alta escalabidade de micro serviços, desenvolvimento ágil e ampla utilização de CI/CD.
+  Cada micro serviço é um peuqeno sistema altamente coeso e simples em suas funções, seguindo os padrões SOLID e DDD.  
+
+2.2. Descreva 3 benefícios de utilizar uma arquitetura orientada a eventos.
+
+- Coreografia de microserviços;
+- Utilização de PUB/SUB;
+- Uso de Message Broker.
+
+
+2.3. Qual o conceito de API Management?
+
+ - É um conjunto de ferramentas e serviços que permitem que desenvolvedores e empresas criem, analisem, operem e escalem APIs em ambientes seguros. 
+ O gerenciamento de APIs pode ser entregue localmente, pela nuvem ou usando uma abordagem híbrida local – SaaS (software como serviço).
+ No seu nível mais simples, a API Gateway permite a comunicação entre microserviços.
+
+2.4. Já utilizou algum API Management? Se sim, quais?
+
+- API Gateway da AWS
+
+2.5. Já utilizou alguma ferramenta de analytics? Se sim, quais?
+
+Google analytics.
+
+2.6. No teste prático, quais os benefícios que podemos ter usando eventos persistidos no
+elasticsearch? Cite três benefícios.
+
+- Melhore os logs: em vez de apenas ter os logs do sistema poderiamos utilizar o Elasticsearch preenchido com os logs, 
+e usar a solução ELK (Elasticsearch, Logstash e Kibana) para fornecer uma melhor visualização dos logs e talvez métricas;
+
+- Preencha o Elasticsearch com postagens também e obter dados do Elasticsearch 
+usando o MySql apenas para gravar. Acredito que essa abordagem melhora bastante o desempenho;
+
+- Centralização das informações sobre os microserviços em um dashboard Kibana.
+
+2.7. Você seria capaz de criar uma visualização usando o kibana com os benefícios citados?
+
+Sim
+
+2.7.1. Se for capaz pode criar e enviar junto com o desafio.
