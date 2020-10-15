@@ -94,6 +94,5 @@ services:
       - DATABASE_PASSWORD=admin
       - DATABASE_NAME=customer-service
       - DATABASE_PORT=3306
-      - ELASTIC_SEARCH_URL=http://elasticsearch:9200/_bulk      
- 
-  
+      - ELASTIC_SEARCH_URL=http://elasticsearch:9200/_bulk 
+      
